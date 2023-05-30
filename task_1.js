@@ -1,7 +1,7 @@
 
 //Практическая задача на написание скрипта JS
 function setData(data) {
-  // Получаем конкретные элементы по тегу и индексу
+  // Получаем  элементы по тегу и индексу
   document.getElementsByTagName('label')[0].textContent = data.companyName;
   document.getElementsByTagName('label')[1].textContent = data.address;
   document.getElementsByTagName('label')[2].textContent = data.firstName;
@@ -26,7 +26,7 @@ const data = {
   phone: "89696969"
 };
 
-// Вызываем функцию setData с передачей объекта данных
+// Вызываем функцию setData с объектом data
 setData(data); 
 console.log("Data set successfully!");
 
