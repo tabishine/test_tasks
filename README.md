@@ -2,7 +2,7 @@
 Folder Structure
 ```
 ├── node_modules            # node library 
-├── package-lock.json.      # Documentation files 
+├── package-lock.json       # Documentation files 
 ├── package.json            # Documentation  
 ├── task1_image.png         # Screen of browser result
 ├── task_1.js               # RPA challenge code (including comment's)
