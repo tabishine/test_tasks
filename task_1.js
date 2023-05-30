@@ -25,9 +25,11 @@ const data = {
   role: "RPA dev",
   phone: "89696969"
 };
-
-// Вызываем функцию setData с объектом data
-setData(data); 
+//Выводим в консоль функцию, после переменную и получаем результат
+console.log(setData);
+console.log(data)
+console.log(data.companyName, data.address, data.firstName, data.lastName, data.email, data.role, data.phone);
+// setData(data);
 console.log("Data set successfully!");
 
 
