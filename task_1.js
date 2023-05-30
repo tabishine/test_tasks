@@ -1,20 +1,23 @@
 
+//Практическая задача на написание скрипта JS
 function setData(data) {
-
-  document.getElementsByTagName('labelCompanyName') = data.companyName;
-  document.getElementsByTagName('labelAddress') = data.address;
-  document.getElementsByTagName('labelFirstName') = data.firstName;
-  document.getElementsByTagName('labelLastName') = data.lastName;
-  document.getElementsByTagName('labelEmail') = data.email;
-  document.getElementsByTagName('labelRole')= data.role;
-  document.getElementsByTagName('labelPhone') = data.phone;
-
+  // Получаем конкретные элементы по тегу и индексу
+  document.getElementsByTagName('label')[0].textContent = data.companyName;
+  document.getElementsByTagName('label')[1].textContent = data.address;
+  document.getElementsByTagName('label')[2].textContent = data.firstName;
+  document.getElementsByTagName('label')[3].textContent = data.lastName;
+  document.getElementsByTagName('label')[4].textContent = data.email;
+  document.getElementsByTagName('label')[5].textContent = data.role;
+  document.getElementsByTagName('label')[6].textContent = data.phone;
 }
-const submitButton = document.getElementsByClassName('btn uiColorButton');
+
+// Получаем конкретную кнопку по индексу
+const submitButton = document.getElementsByClassName('btn uiColorButton')[0]; 
 submitButton.click();
 
+//Cоздание объекта data с нужными аргументами
 const data = {
-  companyName: "Smart",
+  companyName: "SmartLab",
   address: "almaty",
   firstName: "Tabi",
   lastName: "Zhambulova",
@@ -23,8 +26,10 @@ const data = {
   phone: "89696969"
 };
 
-const result = setData(data);
-console.log(result);
+// Вызываем функцию setData с передачей объекта данных
+setData(data); 
+console.log("Data set successfully!");
+
 
 
 
