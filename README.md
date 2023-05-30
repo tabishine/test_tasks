@@ -1,6 +1,6 @@
 # test_tasks
 Folder Structure
-
+```
 ├── node_modules            # node library 
 ├── package-lock.json.      # Documentation files 
 ├── package.json            # Documentation  
@@ -10,7 +10,7 @@ Folder Structure
 ├── task_3.js               # Regex's expression code (including comment's)
 ├── task_2_3_4.pdf          # Pdf file with block scheme and API requests
 └── README.md
-
+```
 Я хотела бы выразить благодарность за возможность выполнить это тестовое задание. 
 Задачи были интересными и позволили мне применить мои навыки в разработке.
 
